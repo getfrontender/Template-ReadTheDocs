@@ -33,6 +33,10 @@ pre {
     margin: 1px 0 24px 0;
 }
 /* GetFrontender custom styles */
+.wy-menu-vertical .nav .active {
+    background: white;
+    color: #343131;
+}
 .document ul,ol,dl {
     list-style-position: inside;
 }
