@@ -2,6 +2,12 @@
 currentMenu: home
 ---
 
+# Installation process
+1. Run ```curl -OS http://couscous.io/couscous.phar``` to install couscous.
+2. Run ```php couscous.phar preview``` to render the docs.
+3. Navigate to http://127.0.0.1:8000/ or http://localhost:8000/ to view the docs.
+
+
 # Read The Docs template for Couscous
 
 [Read The Docs](https://readthedocs.org/) builds websites using a Sphinx theme. [That theme](https://github.com/snide/sphinx_rtd_theme) is open source and released under the MIT license.
