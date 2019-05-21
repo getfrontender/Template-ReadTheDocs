@@ -37,6 +37,12 @@ pre {
     background: white;
     color: #343131;
 }
+.wy-menu-vertical .nav .active a {
+    color: inherit;
+}
+.wy-menu-vertical .nav .active a:hover {
+    background: rgba(78, 74, 74, 0.3);
+}
 .document ul,ol,dl {
     list-style-position: inside;
 }
