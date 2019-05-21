@@ -1,8 +1,16 @@
 .wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a {
     margin-bottom: 0;
 }
+.wy-menu-vertical .text-muted {
+    padding: 0.809em 1.618em;
+    margin: 0;
+    background: rgba(0, 0, 0, .5);
+    color: white;
+}
 
-.wy-nav-side { overflow: inherit; }
+.wy-nav-side {
+    overflow: inherit;
+}
 
 /* Code blocks */
 pre > code {
@@ -24,10 +32,12 @@ pre {
     background: #fff;
     margin: 1px 0 24px 0;
 }
+/* GetFrontender custom styles */
 .document ul,ol,dl {
     list-style-position: inside;
 }
 .document ul,ol li {
+    line-height: 24px;
     list-style: initial;
     list-style-position: inside;
 }
