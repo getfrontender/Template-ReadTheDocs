@@ -82,7 +82,9 @@ pre {
     }
     .section:hover .nav.nav-stacked,
     .section.active .nav.nav-stacked {
-        max-height: 100vh;
+        max-height: 100vh;    
+    }
+    .section:hover .nav.nav-stacked {
         transition: max-height 0.5s ease-in;
     }
 }
