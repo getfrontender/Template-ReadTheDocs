@@ -70,14 +70,19 @@ pre {
 }
 
 
-/* Menu */
-.section .nav.nav-stacked {
-    display: none;
-}
-.section:hover {
-    cursor: pointer;
-}
-.section:hover .nav.nav-stacked,
-.section.active .nav.nav-stacked {
-    display: block;
+@media screen and (min-width: 1024px) {
+    /* Menu styling */
+    .section .nav.nav-stacked {
+        transition: max-height 0.5s ease-out;
+        overflow: hidden;
+        max-height: 0;
+    }
+    .section:hover {
+        cursor: pointer;
+    }
+    .section:hover .nav.nav-stacked,
+    .section.active .nav.nav-stacked {
+        max-height: 100vh;
+        transition: max-height 0.5s ease-in;
+    }
 }
