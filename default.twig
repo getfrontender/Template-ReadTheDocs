@@ -24,19 +24,21 @@
             <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
                 {% if menu.sections %}
                     {% for section in menu.sections %}
-                        <p class="text-muted">
-                            {{ section.name }}
-                        </p>
+                        <div class="section">
+                            <p class="text-muted">
+                                {{ section.name }}
+                            </p>
 
-                        <ul class="nav nav-pills nav-stacked">
-                            {% for itemId, item in section.items %}
-                                <li class="{{ itemId == currentMenu ? 'active' }}">
-                                    <a href="{{ item.absoluteUrl|default(baseUrl ~ '/' ~ item.relativeUrl) }}">
-                                        {{ item.text|raw }}
-                                    </a>
-                                </li>
-                            {% endfor %}
-                        </ul>
+                            <ul class="nav nav-pills nav-stacked">
+                                {% for itemId, item in section.items %}
+                                    <li class="{{ itemId == currentMenu ? 'active' }}">
+                                        <a href="{{ item.absoluteUrl|default(baseUrl ~ '/' ~ item.relativeUrl) }}">
+                                            {{ item.text|raw }}
+                                        </a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
                     {% endfor %}
                 {% else %}
                     <ul>
@@ -98,6 +100,9 @@
         $(function() {
             // Syntax highlighting
             hljs.initHighlightingOnLoad();
+        });
+        $(function() {
+            $('li.active').parent().parent().addClass('active');
         });
     </script>
 

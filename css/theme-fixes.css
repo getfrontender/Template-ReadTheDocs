@@ -68,3 +68,16 @@ pre {
 .document thead th:nth-child(1)  {
     width: 25%;
 }
+
+
+/* Menu */
+.section .nav.nav-stacked {
+    display: none;
+}
+.section:hover {
+    cursor: pointer;
+}
+.section:hover .nav.nav-stacked,
+.section.active .nav.nav-stacked {
+    display: block;
+}
