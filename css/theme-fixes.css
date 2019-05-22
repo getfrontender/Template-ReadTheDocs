@@ -50,7 +50,8 @@ pre {
 .document table,ul,ol {
     margin-bottom: 24px;
 }
-.document ul,ol li {
+.document ul li,
+.document ol li {
     line-height: 24px;
     list-style: initial;
     list-style-position: inside;
