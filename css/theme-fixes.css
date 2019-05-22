@@ -46,13 +46,14 @@ pre {
 .document ul,ol,dl {
     list-style-position: inside;
 }
+.document h4,h5,h6,
+.document table,ul,ol {
+    margin-bottom: 24px;
+}
 .document ul,ol li {
     line-height: 24px;
     list-style: initial;
     list-style-position: inside;
-}
-.document table,ul,ol {
-    margin-bottom: 24px;
 }
 .document tbody tr:nth-child(even) {
     background-color: rgba(0, 0, 0, 0.05);
