@@ -1,13 +1,6 @@
 .wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a {
     margin-bottom: 0;
 }
-.wy-menu-vertical .text-muted {
-    padding: 0.809em 1.618em;
-    margin: 0;
-    background: rgba(0, 0, 0, .5);
-    color: white;
-}
-
 .wy-nav-side {
     overflow: inherit;
 }
@@ -33,16 +26,53 @@ pre {
     margin: 1px 0 24px 0;
 }
 /* GetFrontender custom styles */
+.wy-grid-for-nav {
+    height: auto;
+}
+.wy-side-nav-search {
+    margin-bottom: 0;
+    background-color: #FFE550;
+    border-bottom: 1px solid #424242;
+}
+.wy-nav-side {
+    background-color: #F7F7F7;
+    box-shadow: 0 0 10px 0 #E3E3E3;
+}
+.wy-menu-vertical a {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: #424242;
+    letter-spacing: 1.5px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+.wy-menu-vertical .text-muted {
+    padding: 0.809em 1.618em;
+    margin: 0;
+    background-color: #C8E7E9;
+    color: #424242;
+}
+.wy-side-nav-search>a {
+    color: #424242;
+}
+.wy-menu-vertical a:hover {
+    background-color: #E3E3E3;
+    background-color: rgba(155, 224, 228, .2);
+}
 .wy-menu-vertical .nav .active {
-    background: white;
-    color: #343131;
+    border-bottom: 1px solid #C8E7E9;
+}
+@media screen and (min-width: 1400px) {
+    .wy-nav-content-wrap {
+        background-color: #E3E3E3;
+    }
 }
 .wy-menu-vertical .nav .active a {
     color: inherit;
 }
-.wy-menu-vertical .nav .active a:hover {
-    background: rgba(78, 74, 74, 0.3);
-}
+/* .wy-menu-vertical .nav .active a:hover {
+    background-color: rgba(78, 74, 74, 0.3);
+} */
 .document ul,ol,dl {
     list-style-position: inside;
 }
@@ -57,7 +87,7 @@ pre {
     list-style-position: inside;
 }
 .document tbody tr:nth-child(even) {
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: #E3E3E3;
 }
 .document tbody td {
     padding: 10px;
@@ -82,7 +112,7 @@ pre {
     }
     .section:hover .nav.nav-stacked,
     .section.active .nav.nav-stacked {
-        max-height: 100vh;    
+        max-height: 100vh;
     }
     .section:hover .nav.nav-stacked {
         transition: max-height 0.5s ease-in;
