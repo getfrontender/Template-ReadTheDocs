@@ -70,6 +70,11 @@ pre {
 .wy-menu-vertical .nav .active a {
     color: inherit;
 }
+
+.why-body-for-nav {
+    background: left repeat-y #E3E3E3;
+}
+
 /* .wy-menu-vertical .nav .active a:hover {
     background-color: rgba(78, 74, 74, 0.3);
 } */
