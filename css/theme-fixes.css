@@ -33,6 +33,7 @@ pre {
     margin-bottom: 0;
     background-color: #FFE550;
     border-bottom: 1px solid #424242;
+    color: #424242;
 }
 .wy-nav-side {
     background-color: #F7F7F7;
@@ -60,7 +61,7 @@ pre {
     background-color: rgba(155, 224, 228, .2);
 }
 .wy-menu-vertical .nav .active {
-    border-bottom: 1px solid #C8E7E9;
+    border-bottom: 2px solid #C8E7E9;
 }
 @media screen and (min-width: 1400px) {
     .wy-nav-content-wrap {
@@ -75,9 +76,6 @@ pre {
     background: left repeat-y #E3E3E3;
 }
 
-/* .wy-menu-vertical .nav .active a:hover {
-    background-color: rgba(78, 74, 74, 0.3);
-} */
 .document ul,ol,dl {
     list-style-position: inside;
 }
