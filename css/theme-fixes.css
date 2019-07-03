@@ -51,9 +51,10 @@ pre {
     padding: 0.809em 1.618em;
     margin: 0;
     background-color: #C8E7E9;
+    border-bottom: 1px solid #fff;
     color: #424242;
 }
-.wy-side-nav-search>a {
+.wy-grid-for-nav .wy-nav-shift .wy-side-nav-search a {
     color: #424242;
 }
 .wy-menu-vertical a:hover {
