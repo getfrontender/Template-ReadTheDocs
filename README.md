@@ -14,8 +14,6 @@ currentMenu: home
 
 This project is a port of the Sphinx theme to Couscous.
 
-![](screenshot.png)
-
 ## Usage
 
 To use the template, set it up in your `couscous.yml` configuration file:
