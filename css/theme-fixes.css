@@ -54,7 +54,8 @@ pre {
     border-bottom: 1px solid #fff;
     color: #424242;
 }
-.wy-grid-for-nav .wy-nav-shift .wy-side-nav-search a {
+.wy-side-nav-search>a,
+.wy-side-nav-search>a:visited {
     color: #424242;
 }
 .wy-menu-vertical a:hover {
