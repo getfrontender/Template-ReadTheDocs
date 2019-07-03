@@ -102,6 +102,14 @@ pre {
     width: 25%;
 }
 
+.document p + ul {
+    margin-top: -24px;
+}
+
+a,
+a:visited {
+    color: #2980B9;
+}
 
 @media screen and (min-width: 1024px) {
     /* Menu styling */
