@@ -140,3 +140,22 @@ a:visited {
         transition: max-height 0.5s ease-in;
     }
 }
+
+.document h1 {
+    font-size: 2em;
+}
+.document h2 {
+    font-size: 1.75em;
+}
+.document h3 {
+    font-size: 1.5em;
+}
+.document h4 {
+    font-size: 1.25em;
+}
+.document h5 {
+    font-size: 1.125em;
+}
+.document h6 {
+    font-size: 1em;
+}
