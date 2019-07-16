@@ -127,7 +127,10 @@ img.wy-side-nav-search-img {
 .document thead th:nth-child(1)  {
     width: 25%;
 }
-.document p + ul {
+.document p + ul,
+.document h4 + ul,
+.document h5 + ul,
+.document h6 + ul {
     margin-top: -24px;
 }
 .document ol li {
