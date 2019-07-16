@@ -32,7 +32,8 @@ pre {
 .wy-side-nav-search {
     margin-bottom: 0;
     background-color: #FFE550;
-    border-bottom: 1px solid #424242;
+    /* background-color: #424242; */
+    border-bottom: 1px solid #FFF;
     color: #424242;
 }
 .wy-nav-side {
@@ -58,6 +59,22 @@ pre {
 .wy-side-nav-search>a,
 .wy-side-nav-search>a:visited {
     color: #424242;
+}
+.wy-side-nav-search>a:hover {
+    background: none;
+}
+img.wy-side-nav-search-img {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    background-color: #424242;
+    border-radius: 0;
+}
+.wy-side-nav-search>a,
+img.wy-side-nav-search-img {
+    vertical-align: middle;
 }
 .wy-menu-vertical a:hover {
     background-color: #E3E3E3;

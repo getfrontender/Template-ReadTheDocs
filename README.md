@@ -2,17 +2,14 @@
 currentMenu: home
 ---
 
-# Installation process
+# Template by Frontender
+![](https://development.getfrontender.brickson.kitchen/assets/images/brand/frontender-light-bg.png)
+<br/><br/><br/><br/>
+
+## Installation process
 1. Run ```curl -OS http://couscous.io/couscous.phar``` to install couscous.
 2. Run ```php couscous.phar preview``` to render the docs.
 3. Navigate to http://127.0.0.1:8000/ or http://localhost:8000/ to view the docs.
-
-
-# Read The Docs template for Couscous
-
-[Read The Docs](https://readthedocs.org/) builds websites using a Sphinx theme. [That theme](https://github.com/snide/sphinx_rtd_theme) is open source and released under the MIT license.
-
-This project is a port of the Sphinx theme to Couscous.
 
 ## Usage
 
@@ -20,7 +17,7 @@ To use the template, set it up in your `couscous.yml` configuration file:
 
 ```yaml
 template:
-    url: https://github.com/CouscousPHP/Template-ReadTheDocs
+    url: https://github.com/getfrontender/Template-ReadTheDocs
 ```
 
 ## Configuration
