@@ -74,14 +74,13 @@
 
                     <footer>
                         <hr/>
-                        {% if not github is empty %}
-                            <div role="contentinfo">
-                                <p>
-                                    Find {{ title }} on <a href="https://github.com/{{ github.user }}/{{ github.repo }}">GitHub</a>.
-                                </p>
-                            </div>
-                        {% endif %}
-                        Built with <a href="http://couscous.io/">Couscous</a> using a <a href="https://github.com/getfrontender/Template-ReadTheDocs">theme</a> based on <a href="https://readthedocs.org/">Read the Docs</a>.
+                        <div class="footer__accreditation accreditation">
+                            <p class="accreditation__copyright"><small>© 2019 Frontender. All rights reserved</small></p>
+                            <p class="accreditation__attribution attribution">
+                                <img class="attribution__brand img" src="/assets/images/brand/f-dot-framed-theme.png">
+                                <small>Made with Frontender</small>
+                            </p>
+                        </div>
                     </footer>
 
                 </div>

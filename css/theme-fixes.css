@@ -159,3 +159,28 @@ a:visited {
 .document h6 {
     font-size: 1em;
 }
+.attribution__brand.attribution__brand.attribution__brand {
+    height: 1em !important;
+    width: auto;
+    padding-right: .5em;
+}
+.attribution__brand, .attribution__body {
+    display: inline;
+    vertical-align: middle;
+}
+@media only screen and (min-width: 30em) {
+    .accreditation__copyright, .accreditation__attribution {
+        position: relative;
+        display: inline-block;
+        width: 49%;
+    }
+    .accreditation__attribution {
+        text-align: right;
+        float: right;
+    }
+    .accreditation:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
