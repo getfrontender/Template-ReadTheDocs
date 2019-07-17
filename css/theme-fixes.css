@@ -136,6 +136,12 @@ img.wy-side-nav-search-img {
 .document ol li {
     list-style-type: decimal;
 }
+.document img + img {
+    margin-top: 24px;
+}
+.document img.small {
+    width: 50%;
+}
 
 a,
 a:visited {
