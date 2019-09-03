@@ -3,7 +3,7 @@ currentMenu: home
 ---
 
 # Template by Frontender
-![](https://development.getfrontender.brickson.kitchen/assets/images/brand/frontender-light-bg.png)
+![](https://getfrontender.com/assets/images/brand/frontender-light-bg.png)
 <br/><br/><br/><br/>
 
 ## Installation process
